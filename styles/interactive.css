@@ -1,0 +1,98 @@
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f3f6fa;
+}
+
+.container {
+    padding: 18px;
+    min-height: 320px;
+}
+
+h4 {
+    font-size: 12px;
+    color: #263c60;
+    margin-bottom: 12px;
+}
+
+.menu {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 12px;
+}
+
+.menu a {
+    color: #444;
+    font-size: 12px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #e89a43;
+}
+
+.button-group {
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.btn-grow {
+    background-color: #dce6f2;
+    color: #405675;
+    transition: transform 0.3s ease-out;
+}
+
+.btn-grow:hover {
+    transform: scale(1.05);
+}
+
+.btn-darken {
+    background-color: #ed9b42;
+    color: white;
+    transition: background-color 0.4s linear;
+}
+
+.btn-darken:hover {
+    background-color: #a85d20;
+}
+
+a:focus {
+    outline: 2px solid orange;
+    outline-offset: 3px;
+}
+
+.hover-title {
+    margin-top: 25px;
+}
+
+.demo-hover .active {
+    color: #e89a43;
+}
+
+.demo-hover .btn-grow {
+    transform: scale(1.05);
+}
+
+.demo-hover .btn-darken {
+    background-color: #a85d20;
+}
+
+footer {
+    margin-top: 25px;
+}
+
+footer a {
+    color: #9270ad;
+    font-size: 12px;
+}
