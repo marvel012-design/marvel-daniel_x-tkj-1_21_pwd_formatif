@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.3</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+ 
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+        }
+ 
+        .layout {
+            display: flex;
+            min-height: 400px;
+        }
+ 
+        #sidebar {
+            width: 25%;
+            background-color: #243b55;
+            color: #ffffff;
+            padding: 20px;
+        }
+ 
+        #sidebar h3 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 18px;
+            color: #ffffff;
+        }
+ 
+        #sidebar nav {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+ 
+        #sidebar a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 14px;
+        }
+ 
+        #sidebar a:hover {
+            color: #e68a32;
+        }
+ 
+        .main-content {
+            width: 75%;
+            padding: 30px;
+            background-color: #f4f6f9;
+        }
+ 
+        .main-content h1 {
+            color: #1d2a44;
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+ 
+        .main-content p {
+            color: #555555;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+ 
+        footer {
+            text-align: center;
+            padding: 14px;
+            background-color: #bbbbbb;
+        }
+ 
+        footer a {
+            color: #4b2c82;
+            font-size: 14px;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+ 
+    <div class="layout">
+        <aside id="sidebar">
+            <h3>Menu</h3>
+            <nav>
+                <a href="profile.html">Profil</a>
+                <a href="card.html">Proyek</a>
+                <a href="about.html">Keahlian</a>
+                <a href="contact.html">Kontak</a>
+            </nav>
+        </aside>
+ 
+        <main class="main-content">
+            <h1>My Profile</h1>
+            <p>Saya marvel ini adalah projek peretasan sistem sekolah.</p>
+            <p>Di halaman ini ada ringkasan tentang cara meretasa nya, proyek yang sudah dibuat, dan keahlian.</p>
+            <p>Pakai menu di sebelah kiri untuk berpindah.</p>
+        </main>
+    </div>
+ 
+    <footer>
+        <a href="../index.html">Kembali ke Beranda</a>
+    </footer>
+ 
+</body>
+</html>
